@@ -12,10 +12,12 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-; 無変換をEsc
-vk1Dsc07B::Esc
-; 変換を右クリック
-vk1Csc079::AppsKey
+; 無変換を半角全角
+vk1Dsc07B::vkF3sc029
+; 変換を半角全角
+vk1Csc079::vkF3sc029
+; 半角全角をCtrl
+vkF3sc029::LCtrl
 ; 右Altを右コントロール
 RAlt::RCtrl
 ; Alt + 4 で Alt + F4
