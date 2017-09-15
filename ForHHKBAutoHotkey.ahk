@@ -17,8 +17,8 @@ vk1Dsc07B::vkF3sc029
 ; 変換を半角全角
 vk1Csc079::vkF3sc029
 ; 半角全角をCtrl
-vkF3sc029::LCtrl
+vkF3sc029::Ctrl
 ; 右Altを右コントロール
-RAlt::RCtrl
+RAlt::Ctrl
 ; Alt + 4 で Alt + F4
 !4::!F4
